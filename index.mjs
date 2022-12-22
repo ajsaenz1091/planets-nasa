@@ -35,7 +35,10 @@ stream.pipe(parser)
         }
     })
     .on('error', () => console.log(' something went wrong while reading file'))
-    .on('end', () => console.log(`${habitablePlanets.length} habitable planets found!`))
+    .on('end', () => {
+        console.log(habitablePlanets.map(planet => `planet name: ${planet['kepler_name']}`))
+        console.log(`${habitablePlanets.length} habitable planets found!`)
+    })
 
 
 
