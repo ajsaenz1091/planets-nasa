@@ -5,7 +5,7 @@
 
 ## About
 
-I created this app with the purpose of consolidating recently aquired knowledge on NodeJS, specifically on using event emmiters to parse a CSV file downloaded from NASA's Exoplanet Archive [Exoplanet Archive](https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=cumulative "Exoplanet Archive page"). The application converts a csv file into a read stream, which is then parsed by a write stream, both connected by a pipe. The result of the application is a list of planet "kepler_names" of those planets that are considered habitable according to some of the criteria described in this site [A review of planet habitability](https://www.centauri-dreams.org/2015/01/30/a-review-of-the-best-habitable-planet-candidates/ "centauri-dreams page")
+I created this app with the purpose of consolidating recently aquired knowledge on NodeJS, specifically on using event emmiters to parse a CSV file downloaded from NASA's Exoplanet Archive [Exoplanet Archive](https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=cumulative "Exoplanet Archive page"). The application converts a csv file into a read stream, which is then parsed to a write stream, both connected by a pipe. The result of the application is a list of planet "kepler_names" of those planets that are considered habitable according to some of the criteria described in this site [A review of planet habitability](https://www.centauri-dreams.org/2015/01/30/a-review-of-the-best-habitable-planet-candidates/ "centauri-dreams page")
 
 ## Run locally
 
