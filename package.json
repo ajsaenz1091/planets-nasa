@@ -1,0 +1,26 @@
+{
+  "name": "planets-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.mjs",
+    "dev": "nodemon index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajsaenz1091/planets-nasa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajsaenz1091/planets-nasa/issues"
+  },
+  "homepage": "https://github.com/ajsaenz1091/planets-nasa#readme",
+  "dependencies": {
+    "csv-parse": "^5.3.3",
+    "nodemon": "^2.0.20"
+  }
+}
