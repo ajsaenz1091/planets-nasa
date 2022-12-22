@@ -1,5 +1,5 @@
 ![alt text](https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/nasa-logo.svg "Nasa") 
-## planets-nasa
+# planets-nasa
 
 ![GitHub language count](https://img.shields.io/github/languages/count/ajsaenz1091/planets-nasa) ![GitHub top language](https://img.shields.io/github/languages/top/ajsaenz1091/planets-nasa) ![Profile View Counter](https://komarev.com/ghpvc/?username=ajsaenz1091)
 
